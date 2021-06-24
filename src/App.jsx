@@ -1,9 +1,6 @@
-import HelloWorld from './components/HelloWorld';
-
+import PokemonList from "./components/Content/PokemonList/PokemonList";
 const App = () => {
-  return (
-    <HelloWorld />
-  )
-}
+  return <PokemonList />;
+};
 
 export default App;
